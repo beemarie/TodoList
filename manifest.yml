@@ -8,6 +8,7 @@ applications:
   memory: 256M
   instances: 1
   random-route: true
+  command: Server
   services:
   - TodoListCloudantDatabase
 
